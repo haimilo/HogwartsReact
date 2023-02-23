@@ -139,7 +139,6 @@ const HogwartsSort = (props: IHogwartsSortProps) => {
         }
       </div>
       <hr />
-
       {/* Current Date & Time */}
       <div>
         <h2>Current Date & Time</h2>
