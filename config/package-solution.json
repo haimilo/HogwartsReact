@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "hogwarts-react-client-side-solution",
+    "id": "13361f45-17af-4b4c-9830-a0aeb8c1e145",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "hogwarts-react description"
+      },
+      "longDescription": {
+        "default": "hogwarts-react description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "hogwarts-react Feature",
+        "description": "The feature that activates elements of the hogwarts-react solution.",
+        "id": "1b790538-65ce-4605-ad25-2c6695f8914c",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/hogwarts-react.sppkg"
+  }
+}
