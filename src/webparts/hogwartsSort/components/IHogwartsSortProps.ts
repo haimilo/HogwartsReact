@@ -9,14 +9,14 @@ export interface IHogwartsSortProps {
 export interface IHogwartsHouse {
     Id: number;
     Key: string;
-    HouseName: string;
+    HouseNameData: string;
 }
 
 export const HOGWARTSHOUSELIST: IHogwartsHouse[] = [
-    { Id: 1, Key: "Gryffindor", HouseName: "Gryffindor" },
-    { Id: 2, Key: "Slytherin", HouseName: "Slytherin" },
-    { Id: 3, Key: "Ravenclaw", HouseName: "Ravenclaw" },
-    { Id: 4, Key: "Hufflepuff", HouseName: "Hufflepuff" },
+    { Id: 1, Key: "Gryffindor", HouseNameData: "Gryffindor" },
+    { Id: 2, Key: "Slytherin", HouseNameData: "Slytherin" },
+    { Id: 3, Key: "Ravenclaw", HouseNameData: "Ravenclaw" },
+    { Id: 4, Key: "Hufflepuff", HouseNameData: "Hufflepuff" },
 ];
 
 export interface IStudentHogwartsHouse {
@@ -24,6 +24,6 @@ export interface IStudentHogwartsHouse {
     Title: string;
     FullName: string;
     Email: string;
-    House: string;
+    HousesName: string;
     TimeSort: Date;
 }

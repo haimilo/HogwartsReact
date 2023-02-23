@@ -1,34 +1,60 @@
-@import '~@fluentui/react/dist/sass/References.scss';
+@import "~@fluentui/react/dist/sass/References.scss";
 
 .hogwartsSort {
-  overflow: hidden;
-  padding: 1em;
-  color: "[theme:bodyText, default: #323130]";
-  color: var(--bodyText);
-  &.teams {
-    font-family: $ms-font-family-fallbacks;
-  }
-}
-
-.welcome {
-  text-align: center;
-}
-
-.welcomeImage {
-  width: 100%;
-  max-width: 420px;
-}
-
-.links {
-  a {
-    text-decoration: none;
-    color: "[theme:link, default:#03787c]";
-    color: var(--link); // note: CSS Custom Properties support is limited to modern browsers only
-
-    &:hover {
-      text-decoration: underline;
-      color: "[theme:linkHovered, default: #014446]";
-      color: var(--linkHovered); // note: CSS Custom Properties support is limited to modern browsers only
+    overflow: hidden;
+    padding: 1em;
+    color: "[theme:bodyText, default: #323130]";
+    color: var(--bodyText);
+    &.teams {
+        font-family: $ms-font-family-fallbacks;
     }
-  }
+}
+
+.container {
+    // width: 250px;
+    // height: 100px;
+    // margin: 20% auto;
+    font-size: 1rem;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+}
+
+.text {
+    text-align: center;
+    font-weight: bold;
+}
+
+.button {
+    font-size: 1rem;
+    border: 1px solid grey;
+    border-radius: 40px;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    color: gray;
+    // margin: 10% auto;
+    transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    cursor: pointer;
+    // background-color: rgba($color: #2798a7, $alpha: .4);
+}
+
+.icon {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+//Hover
+//-----------------------
+.button:hover {
+    width: 120px;
+    background-color: rgba($color: #2798a7, $alpha: .4);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+    color: black;
+    transition: 0.3s;
+}
+
+.button:active {
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: 0.05s;
 }
