@@ -12,7 +12,7 @@ interface IHouseName {
   HouseName: string;
 }
 
-const getRandomNumber = (previousNumber: number) => {
+const getRandomNumber = (previousNumber) => {
   let randomNumber = Math.floor(Math.random() * 4) + 1;
   while (randomNumber === previousNumber) {
     randomNumber = Math.floor(Math.random() * 4) + 1;
